@@ -8,7 +8,7 @@
 +   fprintf(fpout, "#  -----------------------------------\n");
 +   fprintf(fpout, "#  Disable suffix-transformation rules\n");
 +   fprintf(fpout, "#  -----------------------------------\n");
-+   fprintf(fpout, "#.SUFFIX:");
++   fprintf(fpout, ".SUFFIX:");
 +
     if (fpout != stdout && fpout != stderr) fclose(fpout);
     return(0);
