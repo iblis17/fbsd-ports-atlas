@@ -1,4 +1,4 @@
---- CONFIG/src/SpewMakeInc.c.orig	2017-01-10 08:21:41 UTC
+--- CONFIG/src/SpewMakeInc.c.orig	2016-07-28 19:43:00 UTC
 +++ CONFIG/src/SpewMakeInc.c
 @@ -927,6 +927,12 @@ fprintf(fpout,
        fprintf(fpout, "\t$(ATLFWAIT) -s %d -f $(waitfile)\n", delay);
